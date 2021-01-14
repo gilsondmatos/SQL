@@ -1,1 +1,1 @@
-# SQL
+# Atividades e projetos em MySQL
