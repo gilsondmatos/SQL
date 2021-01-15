@@ -31,7 +31,7 @@ insert into tb_categoria values (null,'Cuidados Pessoais e Beleza','Venda sem pr
 insert into tb_categoria values (null,'Fitness','Venda sem prescrição médica',true);
 
 
-/*Inserção de dados na tabela tb_pizza*/
+/*Inserção de dados na tabela tb_produto*/
 insert into tb_produto values (null,'Fluconazol 150mg','CIMED',3.40,'S',50820,2);
 insert into tb_produto values (null,'Buscopan 10mg','Boehringer Ingelheim',12.50,'S',455,1);
 insert into tb_produto values (null,'Hyalu B5 Repair Serum Anti-Idade 30ml','La Roche Posay',199.90,'N',51365,3);
