@@ -17,7 +17,7 @@ create table tb_produto (
 	Fabricante varchar (30) not null,
 	Preco float(10,2) not null,
 	Generico enum ('S','N') not null,
-	Refencia bigint(10) not null,
+	Referencia bigint(10) not null,
 	id_categoria bigint,
 	foreign key(id_categoria)
 	references tb_categoria(idcategoria)
@@ -43,12 +43,12 @@ insert into tb_produto values (null,'MIND 10MG','Midway',60.76,'N',47512,2);
 
 
 /*Consultas maior R$ 50.00*/
-select idproduto,Nome_produto,Refencia,preco
+select idproduto,Nome_produto,Referencia,preco
 from tb_produto
 where preco > 50;
 
 /*Consultas entre R$ 3,00 e R$ 60,00*/
-select idproduto,Nome_produto,Fabricante,Refencia,preco
+select idproduto,Nome_produto,Fabricante,Referencia,preco
 from tb_produto
 where preco >= 3
 and preco <= 60;
