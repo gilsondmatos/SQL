@@ -2,7 +2,7 @@ create database db_pizzaria_legal;
 
 USE db_pizzaria_legal;
 
-/*Criação da tabela rb_catgoria*/
+/*Criação da tabela tb_categoria*/
 create table tb_categoria(
 	idcategoria bigint primary key auto_increment,
 	tipo varchar(20) not null,
@@ -48,7 +48,7 @@ where preco > 45;
 /*Consultas entre R$ 29,00 e R$ 60,00*/
 select idpizza,sabor,tamanho,borda,massa, preco
 from tb_pizza
-where preco >= 59
+where preco >= 29
 and preco <= 60;
 
 /*Consulta dos produtos com a letra C*/
