@@ -22,6 +22,7 @@ create table tb_curso (
 	foreign key(id_categoria)
 	references tb_categoria(idcategoria)
 );
+
 /*Inserção de dados na tabela tb_categoria*/
 insert into tb_categoria values (null,'Presencial','S');
 insert into tb_categoria values (null,'Presencial','N');

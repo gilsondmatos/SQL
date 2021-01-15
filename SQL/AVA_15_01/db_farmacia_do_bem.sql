@@ -47,7 +47,7 @@ select idproduto,Nome_produto,Refencia,preco
 from tb_produto
 where preco > 50;
 
-/*Consultas entre R$ 29,00 e R$ 60,00*/
+/*Consultas entre R$ 3,00 e R$ 60,00*/
 select idproduto,Nome_produto,Fabricante,Refencia,preco
 from tb_produto
 where preco >= 3
